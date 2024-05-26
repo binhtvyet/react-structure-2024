@@ -1,0 +1,1 @@
+export { default as TonyLayout } from './tony-layout'
