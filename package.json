@@ -8,7 +8,8 @@
     "build": "vite build",
     "test": "vitest",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "husky-install": "husky install & npx husky add .husky/pre-commit 'yarn run lint-staged' & npx husky add .husky/commit-msg  'pre-received' "
   },
   "dependencies": {
     "@ant-design/icons": "^5.3.7",
