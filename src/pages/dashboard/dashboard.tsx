@@ -15,6 +15,7 @@ function Dashboard() {
     fetchData();
   }, [])
 
+  console.log(312)
   return (
     <div>Dashboard</div>
   )
