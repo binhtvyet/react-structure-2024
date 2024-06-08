@@ -2,7 +2,7 @@ import React from 'react'
 import { IConfig, axiosInstance } from '../../services/axios';
 
 function Dashboard() {
-  const [todos, setTodos] = React.useState<any>([]);
+  const [_, setTodos] = React.useState<any>([]);
 
   React.useEffect(() => {
     const config: IConfig = {
@@ -15,7 +15,7 @@ function Dashboard() {
     fetchData();
   }, [])
 
-  console.log(312)
+  console.log(3123)
   return (
     <div>Dashboard</div>
   )

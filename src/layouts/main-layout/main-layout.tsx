@@ -7,7 +7,7 @@ import {
   UserOutlined,
 } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
-import { Avatar, Breadcrumb, Button, Layout, Menu, Popover, theme } from 'antd';
+import {  Breadcrumb, Button, Layout, Menu, Popover, theme } from 'antd';
 
 // configs
 import { PAGE_URL } from '../../config/page-url';

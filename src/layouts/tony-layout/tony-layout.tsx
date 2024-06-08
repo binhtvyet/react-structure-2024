@@ -8,7 +8,7 @@ const items = new Array(3).fill(null).map((_, index) => ({
   label: `nav ${index + 1}`,
 }));
 
-type IProps =  React.PropsWithChildren & {}
+type IProps =  React.PropsWithChildren
 
 const TonyLayout = ({ children }: IProps) => {
   const {

@@ -7,7 +7,7 @@ import { PAGE_URL } from '../../config/page-url';
 
 const Login = () => {
   const navigate = useNavigate();
-  function onFinish(values: any) {
+  function onFinish(values: never) {
     console.log('onFinish: ', values);
 
     // TODO: call api logic success
